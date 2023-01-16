@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Cronômetro Regressivo - Timer</title>
+</head>
+<body>
+  <div id="timer" class="timer">00:00:00</div>
+  
+  <section class="align-inputs">
+    <div class="input-container">
+      <label for="hour">Horas</label>
+      <input type="number" name="" id="hour" value="00" max="99" min="0">
+    </div>
+    <div class="input-container">
+      <label for="minute">Minutos</label>
+      <input type="number" name="" id="minute" value="00" max="59" min="0">
+    </div>
+    <div class="input-container">
+      <label for="second">Segundos</label>
+      <input type="number" name="" id="second" value="00" max="59" min="0">
+    </div>
+  
+  </section>
+  <div class="btn">
+    <button id="btn-start">VAI</button>
+  </div>
+</body>
+<script src="./script.js"></script>
+</html>

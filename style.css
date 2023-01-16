@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(28, 28, 28);
+}
+
+label {
+  font-size: 30px;
+  padding-right: 20px;
+  color: white;
+}
+
+input {
+  font-size: 20px;
+}
+
+button {
+  font-size: 20px;
+  background-color: rgb(54, 236, 54);
+  border-radius: 10%;
+  padding: 10px 20px;
+}
+
+.timer {
+  font-size: 200px;
+  text-align: center;
+  color: white;
+}
+
+.input-container {
+  margin: 20px;
+}
+
+.align-inputs {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  text-align: center;
+}
